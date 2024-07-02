@@ -10,14 +10,14 @@ import Divider from '@mui/material/Divider';
 
 const Items = (items) => {
     return (
-        <List>
+        <List style={{ width: "600px" }}>
             {items.items.items.map((item, index) => (
                 <div key={index}>
                     <ListItem button>
                         <ListItemAvatar >
-                            <Avatar src={item.imgSrc} style={{ width: '150px', height: '150px' }} />
+                            <Avatar src={item.imgSrc} style={{ width: '100px', height: '100px' }} />
                         </ListItemAvatar>
-                        <ListItemText primary={item.text} />
+                        <ListItemText primary={item.text} style={{ fontSize: '30px'}} />
                     </ListItem>
                     <Divider />
                 </div>

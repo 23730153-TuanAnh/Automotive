@@ -5,39 +5,3 @@
   font-size: 56px;
   box-sizing: border-box
 }
-
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-//   font-family: 'Poppins', sans-serif;
-// }
-.toggle-language {
-  // font-family: $content_font;
-  width: 60px;
-  background-color: red;
-  // .boss{
-  //     z-index: 99;
-  //     background-color: red;
-  // }
-  a {
-      // font-family: $content_font;
-      font-size: 0.8rem;
-      display: flex;
-      align-items: center;
-  }
-
-  .dropdown-toggle {
-      justify-content: space-between;
-  }
-
-  .toggle-language-menu {
-      margin-top: -15px;
-      left: -3px;
-  }
-
-  .flag-united-kingdom {
-      margin-right: 10px;
-  }
-
-}

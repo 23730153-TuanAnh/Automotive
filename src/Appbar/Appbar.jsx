@@ -141,7 +141,7 @@ export default function AppBars(items) {
                     </FormControl>
                 </Toolbar>
             </AppBar>
-            <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
+            <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}  >
                 <Items items={items} />
             </Drawer>
             <List style={{ top: "150px" }}>
